@@ -1,0 +1,292 @@
+/* styles for desktop devices */
+
+.footer{
+    text-align: center;
+}
+
+@media only screen and (min-width: 992px){
+.upper{
+    display: flex;
+    justify-content: space-around;
+    
+}
+hr{
+    display: none;
+}
+.montana {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+li{
+    float: left;
+    padding-right: 135px;
+    list-style: none;
+    color: blue;
+    
+}
+
+a{
+    color: rgb(4, 139, 236);
+    text-decoration: none;
+}
+
+nav {
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+caption{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.opportunities{
+    width: auto;
+    padding: 10px 0px 20px 40px;
+    border: 1px solid #BFBFBF;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #000000;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+table {
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 1em;
+    border: 1px solid rgb(8, 154, 238);
+    border-collapse: collapse;
+    
+    }
+
+tr, td, th{
+    border: 1px solid rgb(11, 171, 230);
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+
+label {
+    float: left;
+    padding-right: 0.5em;
+    text-align: right;
+    width: 8em;
+    }
+
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+    }
+
+
+form {
+  width: auto;
+  padding: 10px 30px 20px 40px;
+  border: 1px solid #454545;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 10px 10px 5px #000000;
+  margin-left: 50px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+}
+
+.mobile{
+    display: none;
+}
+.intro{
+    display: none;
+}
+
+}
+
+
+/* styles for tablet devices */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .intro2{
+        display: none;
+    }
+
+    intro{
+        text-align: center;
+        padding-left: 20px;
+        margin-left: 20px ;
+    }
+    .upper{
+        display: flex;
+        justify-content: space-around;
+        
+    } .montana {
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    
+    li{
+        /* float: left; */
+        list-style: none;
+        text-align: center;
+        display: inline-block;
+        padding: 8px;
+        width: 100px;
+        margin: 2px;
+        color: #ffffff;
+        background-color: #0616f3;
+        border-radius: 20px;
+        
+    }
+    
+    a{
+        color: rgb(245, 245, 245);
+        text-decoration: none;
+    }
+    
+    nav {
+        
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+      }
+    
+    .navigation {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content:space-between;
+    }
+
+    table {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        border: 1px solid rgb(11, 162, 244);
+        border-collapse: collapse;
+        }
+    
+    tr, td, th{
+        border: 1px solid rgb(11, 168, 220);
+        border-collapse: collapse;
+        padding: 8px;
+    }
+
+
+    label {
+        float: left;
+        padding-right: 0.5em;
+        text-align: right;
+        width: 8em;
+        }
+
+        caption{
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        
+
+
+    input, textarea {
+            display: block;
+            margin-bottom: 1em;
+         }
+    
+         /* .opportunities{
+            width: auto;
+            padding: 10px 0px 20px 40px;
+            border: 1px solid #BFBFBF;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 10px 10px 5px #000000;
+            margin-left: 50px;
+            margin-right: 80px;
+            margin-bottom: 10px;
+           
+        } */
+              
+        .mobile{
+            display: none;
+        }
+
+        
+        hr{
+            color: blue;
+            width: 100%;
+            height: 2px;
+            background-color: #1981c5;
+    
+        }
+
+}
+
+
+
+/* styles for mobile devices */
+
+@media only screen and (max-width: 767px) {
+    
+    input, textarea {
+        display: block;
+        margin-bottom: 1em;
+        }
+    label {
+        display: block;
+        }
+
+    img,.opportunities, .montana {
+        display: none;
+    }
+    
+    hr{
+        color: blue;
+        width: 100%;
+        height: 2px;
+        background-color: #1981c5;
+
+    }
+
+    .navigation li{
+        list-style: none;
+        text-align: center;
+        /* display: ; */
+        padding: 8px;
+        /* padding-right: 20px; */
+        margin-right: 50px;
+        margin-bottom: 200px;
+        /* width: auto; */
+        margin: 2px;
+        color: #ffffff;
+        background-color: #0616f3;
+        border-radius: 20px;
+        text-decoration: none;
+        
+    }
+    .navigation a{
+        color: white;
+        text-decoration: none;
+    }
+
+   
+  }
